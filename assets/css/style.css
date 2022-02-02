@@ -1,0 +1,56 @@
+div.sidebar.d-flex {
+  height: 170px;
+  width: 100%;
+  background-color: #535353;
+  border-radius: 20px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: 300px;
+  max-width: 1320px;
+  position: absolute;
+}
+
+div.sidebar.d-flex a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+button {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 85px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button i {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+main .container {
+  height: 100vh;
+  background-color: wheat;
+}
+
+.close-sidebar {
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-90px);
+  background-color: wheat !important;
+}
+/*# sourceMappingURL=style.css.map */
