@@ -6,7 +6,7 @@ input.addEventListener("keydown", function (e) {
   if (e.keyCode === 13) {
     event.preventDefault();
     if (input.value == "") {
-      warning.value = "Please enter again";
+      return false;
     }
 
     let list = document.createElement("li");
